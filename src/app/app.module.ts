@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 // Modules
 import { PagesModule } from './pages/pages.module';
 import { SharedModule } from './shared/shared.module';
+import { ServiceModule } from './services/service.module';
 
 // Routes
 import { APP_ROUTES } from './app-routes';
@@ -24,9 +25,11 @@ import { PAGES_ROUTES } from './pages/pages-routes';
     BrowserModule,
     PagesModule,
     SharedModule,
+    ServiceModule,
     APP_ROUTES
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
