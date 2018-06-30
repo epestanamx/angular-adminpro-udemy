@@ -18,7 +18,7 @@ import { PAGES_ROUTES } from './pages/pages-routes';
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
