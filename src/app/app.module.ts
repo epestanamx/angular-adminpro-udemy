@@ -1,3 +1,4 @@
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -24,6 +25,8 @@ import { PAGES_ROUTES } from './pages/pages-routes';
   imports: [
     BrowserModule,
     PagesModule,
+    FormsModule,
+    ReactiveFormsModule,
     SharedModule,
     ServiceModule,
     APP_ROUTES
